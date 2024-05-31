@@ -7,7 +7,7 @@ use tracing_forest::ForestLayer;
 use tracing_subscriber::fmt::format::FmtSpan;
 use tracing_subscriber::{prelude::*, EnvFilter};
 
-mod cli;
+pub mod cli;
 mod examples;
 mod repl;
 mod tools;

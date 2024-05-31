@@ -1,6 +1,6 @@
 mod bundle;
 mod compile;
-mod data;
+pub mod data;
 mod debug;
 mod prove;
 mod repl;
